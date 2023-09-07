@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+}
+
+ form {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-left: 40px;
+    min-width: 350px;
+  }
+  
+  input {
+    width: 380px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;   
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+  }
+   
+  input{
+        width: 280px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;    
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+      }
+  
+  input:focus{
+        background-color: rgba(0,124,128, 0.35);
+        outline: none;
+        color:bisque;
+      }
+  
+  button{
+        border-radius: 4px;
+        color: white;
+        background-color: #AF66F2;
+        font-size: 20px;
+        border: none;
+        margin: 10px;
+        cursor: pointer;
+      }
